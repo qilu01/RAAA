@@ -101,15 +101,9 @@ format: hdf5 files, "image_id".jpg.hdf5
   key: 'image_id'.jpg
   
   attrs: {"image_w": int, "image_h": int, "boxes": 4d array (x1, y1, x2, y2)}
-  
-   
-  
-  
-## Citations
-If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
-```text
 
-```
+
+
 
 
 ## License
