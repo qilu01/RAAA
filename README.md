@@ -36,7 +36,7 @@ python ego2caption.py $resdir/model.json $resdir/path.json --eval_loss --is_trai
 # inference(EGO)
 python ego2caption.py $resdir/model.json $resdir/path.json --eval_set val_sub --num_workers 8
 
-# inference(EGF+EGO)
+# inference(EGDD+EGO)
 python ego2caption.py $resdir/model.json $resdir/path.json --eval_set val_sub_opt --num_workers 8
 ```
 
@@ -47,7 +47,7 @@ All datasets can be download from [GoogleDrive](https://drive.google.com/drive/f
 ### Model ASG Annotations
 
 Model ASG Annotations are annotated by crowed workers in the platform `ScaleAI`.
-Annotation results(part) are in `tasks.json` file.
+Annotation results(part) are in `tasks.json` file. (Note:Due to privacy concerns, we have only open-sourced partial annotation results.)
 ### Human ASG Annotations(sampled from MSCOCO)
 #### Annotation
 
@@ -103,12 +103,6 @@ format: hdf5 files, "image_id".jpg.hdf5
   attrs: {"image_w": int, "image_h": int, "boxes": 4d array (x1, y1, x2, y2)}
 
 
-
-
-
-## License
-
-MIT License
 
 
 
