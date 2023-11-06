@@ -1,6 +1,6 @@
 # RAAA: A Human-in-the-loop Framework to Interpret and Improve Image Caption with Relation-Aware Attribution Analysis
 
-This repository contains PyTorch implementation of our paper [RAAA: A Human-in-the-loop Framework to Interpret and Improve Image Caption with Relation-Aware Attribution Analysis](https://www.abc.com).
+This repository contains PyTorch implementation of our paper [RAAA: A Human-in-the-loop Framework to Interpret and Improve Image Caption with Relation-Aware Attribution Analysis]().
 
 ![Overview of ExplanationGuidedCaption Model](figures/framework.png)
 
